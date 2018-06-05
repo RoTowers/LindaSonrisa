@@ -32,7 +32,8 @@ namespace LindaSonrisa.WPF
             MainWindow ventana_main = new MainWindow();
             ventana_main.Show();
             this.Close();
-            //hola
+            //hola y que pasa
+            //prueba de rama
 
         }
     }
