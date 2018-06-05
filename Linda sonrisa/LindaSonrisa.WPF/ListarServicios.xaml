@@ -1,0 +1,108 @@
+﻿<Controls:MetroWindow  x:Class="LindaSonrisa.WPF.ListarServicios"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LindaSonrisa.WPF"
+        xmlns:iconPacks = "http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        Title="S.WI.P" Height="619.93" Width="1506.849" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <StackPanel VerticalAlignment="Top" Background="#58ACFA">
+            <Menu Width="Auto" Height="Auto" Background="#58ACFA">
+                <Image Width="110" Height="Auto" Source="img/logo_linda_sonrisa.png" />
+                <MenuItem Header="_Inicio" Background="#58ACFA" Style="{StaticResource MenuItemStyle}"/>
+
+                <MenuItem Header="_Registro" Background="#58ACFA" Style="{StaticResource MenuItemStyle}">
+                    <MenuItem x:Name="_Proveedor" Header="_Proveedor" HorizontalAlignment="Left" Width="140" Style="{x:Null}">
+                        <MenuItem x:Name="_RegistroProveedor" Header="_Registro Proveedores" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_RegistroProveedores_Click" />
+                        <MenuItem x:Name="_ListarProveedores" Header="_Listar Proveedores" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_ListarProveedores_Click" />
+                    </MenuItem>
+                    <MenuItem x:Name="_Clientes" Header="_Clientes" HorizontalAlignment="Left" Width="140" Style="{x:Null}">
+                        <MenuItem x:Name="_RegistroClientes" Header="_Registro Clientes" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_RegistroClientes_Click" />
+                        <MenuItem x:Name="_ListarClientes" Header="_Listar Clientes" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_ListarClientes_Click" />
+                    </MenuItem>
+                    <MenuItem x:Name="_Servicios" Header="_Servicios" HorizontalAlignment="Left" Width="140" Style="{x:Null}">
+                        <MenuItem x:Name="_RegistroServicios" Header="_Registro Servicios" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_RegistroServicios_Click" />
+                        <MenuItem x:Name="_ListarServicios" Header="_Listar Servicios" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_ListarServicios_Click" />
+                    </MenuItem>
+                    <MenuItem x:Name="_Empleados" Header="_Empleados" HorizontalAlignment="Left" Width="140" Style="{x:Null}">
+                        <MenuItem x:Name="_RegistroEmpleados" Header="_Registro Empleados" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_RegistroEmpleados_Click" />
+                        <MenuItem x:Name="_ListarEmpleados" Header="_Listar Empleados" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_ListarEmpleados_Click" />
+                    </MenuItem>
+                    <MenuItem x:Name="_Productos" Header="_Productos" HorizontalAlignment="Left" Width="140" Style="{x:Null}">
+                        <MenuItem x:Name="_RegistroProductos" Header="_Registro Productos" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_RegistroProductos_Click" />
+                        <MenuItem x:Name="_ListarProductos" Header="_Listar Productos" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_ListarProductos_Click" />
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="_Reserva de Hora" Background="#58ACFA" Style="{StaticResource MenuItemStyle}">
+                    <MenuItem x:Name="About" Header="About" HorizontalAlignment="Left" Width="140"/>
+                </MenuItem>
+                <MenuItem Header="_Orden Pedido" Background="#58ACFA" Style="{StaticResource MenuItemStyle}"/>
+                <MenuItem Header="_Boleta Servicio" Background="#58ACFA" Style="{StaticResource MenuItemStyle}"/>
+                <MenuItem Header="_Informes y Estadísticas" Background="#58ACFA" Style="{StaticResource MenuItemStyle}" Click="_Estadisticas_Click"/>
+            </Menu>
+        </StackPanel>
+        <Button x:Name="btn_salir"  HorizontalAlignment="Left" Margin="1222,-2,0,0" VerticalAlignment="Top"  Padding="20,20,20,20" RenderTransformOrigin="0.261,0.593" Style="{DynamicResource MetroCircleButtonStyle}" Background="#FF236CB6" BorderBrush="#FF295CE4" Click="btn_salir_Click" ToolTip="Cerrar Sesión">
+            <iconPacks:PackIconMaterial  Kind= "Power" Foreground="White" />
+        </Button>
+        <Label x:Name="lblNombreUsuario" Content="" HorizontalAlignment="Left" Margin="1157,13,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label x:Name="lblNombre" Content="" HorizontalAlignment="Left" Margin="450,82,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDescripcion" Content="" HorizontalAlignment="Left" Margin="450,123,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblMensaje" Content="" HorizontalAlignment="Left" Margin="525,123,0,0" VerticalAlignment="Top"/>
+        
+        <Label x:Name="lblListarCliente" Content="Listar Servicios" HorizontalAlignment="Left" Margin="525,86,0,0" VerticalAlignment="Top" Height="37" Width="165" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="btnFiltrar" Content="Filtrar" HorizontalAlignment="Left" Margin="679,170,0,0" VerticalAlignment="Top" Width="136" Height="22" Background="#FF17B5F0" BorderBrush="#FF0ECDEC" Click="btnAgregar_Click"/>
+        <TextBox x:Name="txtFiltro" HorizontalAlignment="Left" Height="23" Margin="525,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="Nombre" HorizontalAlignment="Left" Margin="450,170,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="dgLista" AutoGenerateColumns="False" CanUserAddRows="False" HorizontalAlignment="Left" Margin="450,203,0,0" VerticalAlignment="Top" Width="400" BorderThickness="1" MaxHeight="250">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nombre" IsReadOnly="True" Binding="{Binding Path=Nombre}" Width="*">
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#58ACFA"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                </DataGridTextColumn>
+
+
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#58ACFA"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="Modificar" Background="White">
+                                <iconPacks:PackIconMaterial  Kind="Pencil" Foreground="Black" />
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#58ACFA"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="Eliminar" Background="White">
+                                <iconPacks:PackIconMaterial  Kind="Delete" Foreground="Red" />
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label x:Name="lblNombreMsg" HorizontalAlignment="Left" Margin="653,170,0,0" VerticalAlignment="Top" Style="{StaticResource MyLabelStyle}" Visibility="Hidden" >
+            <iconPacks:PackIconMaterial  Kind= "Exclamation" Foreground="White" />
+        </Label>
+    </Grid>
+</Controls:MetroWindow>

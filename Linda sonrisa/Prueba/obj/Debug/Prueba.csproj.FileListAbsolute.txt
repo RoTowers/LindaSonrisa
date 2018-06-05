@@ -1,0 +1,12 @@
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\Prueba\bin\Debug\Prueba.exe.config
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\Prueba\bin\Debug\Prueba.exe
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\Prueba\bin\Debug\Prueba.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\Prueba\bin\Debug\LindaSonrisa.Negocio.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\Prueba\bin\Debug\LindaSonrisa.Dalc.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\Prueba\bin\Debug\EntityFramework.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\Prueba\bin\Debug\LindaSonrisa.Negocio.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\Prueba\bin\Debug\LindaSonrisa.Dalc.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\Prueba\bin\Debug\EntityFramework.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\Prueba\obj\Debug\Prueba.csprojResolveAssemblyReference.cache
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\Prueba\obj\Debug\Prueba.exe
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\Prueba\obj\Debug\Prueba.pdb

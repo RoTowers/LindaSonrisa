@@ -1,0 +1,20 @@
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Negocio.dll.config
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Negocio.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Negocio.pdb
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Dalc.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Dalc.pdb
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\EntityFramework.xml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Negocio\obj\Debug\LindaSonrisa.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Negocio\obj\Debug\LindaSonrisa.Negocio.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Negocio\obj\Debug\LindaSonrisa.Negocio.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Negocio.dll.config
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Negocio.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Negocio.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\EntityFramework.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Dalc.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Dalc.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\EntityFramework.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Negocio\obj\Debug\LindaSonrisa.Negocio.csprojResolveAssemblyReference.cache
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Negocio\obj\Debug\LindaSonrisa.Negocio.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Negocio\obj\Debug\LindaSonrisa.Negocio.pdb

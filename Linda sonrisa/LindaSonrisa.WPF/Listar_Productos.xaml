@@ -1,0 +1,291 @@
+﻿<Controls:MetroWindow x:Class="LindaSonrisa.WPF.Listar_Productos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LindaSonrisa.WPF"
+        xmlns:iconPacks = "http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        BorderThickness="0" 
+        GlowBrush="Black"
+                      
+        Title="S.WI.P" Height="597.999" Width="1362.849" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <!--<Grid.Resources>
+            <DataTemplate x:Key="MenuItemTemplate" DataType="{x:Type Controls:HamburgerMenuIconItem}">
+                <Grid Height="48">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="48" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <ContentControl Grid.Column="0"
+                    FontSize="16"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontFamily="Segoe MDL2 Assets"
+                    Foreground="White"
+                    Content="{Binding Icon}" />
+
+                    <TextBlock Grid.Column="1"
+                    VerticalAlignment="Center"
+                    FontSize="16"
+                    Foreground="White"
+                    Text="{Binding Label}" />
+                </Grid>
+            </DataTemplate>
+        </Grid.Resources>
+        <Controls:HamburgerMenu x:Name="HamburgerMenuControl"
+                                
+                        Foreground="White"
+                        PaneBackground="#5594CF"
+                        
+                        IsPaneOpen="False"
+                        ItemTemplate="{StaticResource MenuItemTemplate}"
+                        OptionsItemTemplate="{StaticResource MenuItemTemplate}"
+                        ItemClick="HamburgerMenuControl_OnItemClick"
+                        OptionsItemClick="btn_salir_Click"
+                        DisplayMode="CompactInline">
+            -->
+        <!--PaneBackground="#FF444444"-->
+        <!--
+            <Controls:HamburgerMenu.ContentTemplate>
+                <DataTemplate DataType="{x:Type Controls:HamburgerMenuItem}">
+                    <Grid x:Name="TheContentGrid">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="48" />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Border Grid.Row="0"
+                    Background="#FF444444">
+                            <TextBlock x:Name="Header"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="24"
+                            Foreground="White"
+                            Text="{Binding Label}" />
+                        </Border>
+                        <ContentControl x:Name="TheContent"
+                            Grid.Row="1"
+                            Focusable="False"
+                            Foreground="{DynamicResource BlackBrush}"
+                            Content="{Binding Tag}" />
+                    </Grid>
+                </DataTemplate>
+            </Controls:HamburgerMenu.ContentTemplate>
+
+            <Controls:HamburgerMenu.ItemsSource>
+                <Controls:HamburgerMenuItemCollection>
+                    <Controls:HamburgerMenuIconItem Icon="{iconPacks:Material Kind=Home}" Label="Inicio">
+                        <Controls:HamburgerMenuIconItem.Tag>
+                            <Grid>
+                                <Menu DockPanel.Dock="Left">
+                                    <MenuItem Header="_File">
+                                        <MenuItem Header="_New" />
+                                        <MenuItem Header="_Open" />
+                                        <MenuItem Header="_Save" />
+                                        <Separator />
+                                        <MenuItem Header="_Exit" />
+                                    </MenuItem>
+                                </Menu>
+                            </Grid>
+                        </Controls:HamburgerMenuIconItem.Tag>
+                    </Controls:HamburgerMenuIconItem>
+
+                    <Controls:HamburgerMenuIconItem Icon="{iconPacks:Material Kind=Pencil}" Label="Registro">
+                        <Controls:HamburgerMenuIconItem.Tag>
+                            <Menu DockPanel.Dock="Left">
+                                <MenuItem Header="_File">
+                                    <MenuItem Header="_New" />
+                                    <MenuItem Header="_Open" />
+                                    <MenuItem Header="_Save" />
+                                    <Separator />
+                                    <MenuItem Header="_Exit" />
+                                </MenuItem>
+                            </Menu>
+                        </Controls:HamburgerMenuIconItem.Tag>
+                    </Controls:HamburgerMenuIconItem>
+
+                    <Controls:HamburgerMenuIconItem Icon="{iconPacks:Material Kind=Clock}" Label="Reserva de Hora">
+                        <Controls:HamburgerMenuIconItem.Tag>
+                            Hola
+                        </Controls:HamburgerMenuIconItem.Tag>
+                    </Controls:HamburgerMenuIconItem>
+
+                    <Controls:HamburgerMenuIconItem Icon="{iconPacks:Material Kind=FormatListChecks}" Label="Orden de Pedido">
+                        <Controls:HamburgerMenuIconItem.Tag>
+                            Hola
+                        </Controls:HamburgerMenuIconItem.Tag>
+                    </Controls:HamburgerMenuIconItem>
+
+                    <Controls:HamburgerMenuIconItem Icon="{iconPacks:Material Kind=FileDocumentBox}" Label="Boleta de Servicio">
+                        <Controls:HamburgerMenuIconItem.Tag>
+                            Hola
+                        </Controls:HamburgerMenuIconItem.Tag>
+                    </Controls:HamburgerMenuIconItem>
+
+                    <Controls:HamburgerMenuIconItem Icon="{iconPacks:Material Kind=ChartLine}" Label="Informes y Estadísticas">
+                        <Controls:HamburgerMenuIconItem.Tag>
+                            Hola
+                        </Controls:HamburgerMenuIconItem.Tag>
+                    </Controls:HamburgerMenuIconItem>
+
+                </Controls:HamburgerMenuItemCollection>
+            </Controls:HamburgerMenu.ItemsSource>
+
+            -->
+        <!--  Options  -->
+        <!--
+            <Controls:HamburgerMenu.OptionsItemsSource>
+                <Controls:HamburgerMenuItemCollection>
+                    <Controls:HamburgerMenuIconItem Icon="{iconPacks:Material Kind=Power}" Label="Cerrar Sesión">
+                        <Controls:HamburgerMenuIconItem.Tag>
+                            hola
+                        </Controls:HamburgerMenuIconItem.Tag>
+                    </Controls:HamburgerMenuIconItem>
+                </Controls:HamburgerMenuItemCollection>
+            </Controls:HamburgerMenu.OptionsItemsSource>
+            <Label x:Name="label" Content="Label" Height="100" Width="100"/>
+
+        </Controls:HamburgerMenu>-->
+
+
+
+        <StackPanel VerticalAlignment="Top" Background="#58ACFA">
+            <Menu Width="Auto" Height="Auto" Background="#58ACFA">
+                <Image Width="110" Height="Auto" Source="img/logo_linda_sonrisa.png" />
+                <MenuItem Header="_Inicio" Background="#58ACFA" Style="{StaticResource MenuItemStyle}"/>
+
+                <MenuItem Header="_Registro" Background="#58ACFA" Style="{StaticResource MenuItemStyle}">
+                    <MenuItem x:Name="_Proveedor" Header="_Proveedor" HorizontalAlignment="Left" Width="140" Style="{x:Null}">
+                        <MenuItem x:Name="_RegistroProveedor" Header="_Registro Proveedores" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_RegistroProveedores_Click" />
+                        <MenuItem x:Name="_ListarProveedores" Header="_Listar Proveedores" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_ListarProveedores_Click" />
+                    </MenuItem>
+                    <MenuItem x:Name="_Clientes" Header="_Clientes" HorizontalAlignment="Left" Width="140" Style="{x:Null}">
+                        <MenuItem x:Name="_RegistroClientes" Header="_Registro Clientes" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_RegistroClientes_Click" />
+                        <MenuItem x:Name="_ListarClientes" Header="_Listar Clientes" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_ListarClientes_Click" />
+                    </MenuItem>
+                    <MenuItem x:Name="_Servicios" Header="_Servicios" HorizontalAlignment="Left" Width="140" Style="{x:Null}">
+                        <MenuItem x:Name="_RegistroServicios" Header="_Registro Servicios" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_RegistroServicios_Click" />
+                        <MenuItem x:Name="_ListarServicios" Header="_Listar Servicios" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_ListarServicios_Click" />
+                    </MenuItem>
+                    <MenuItem x:Name="_Empleados" Header="_Empleados" HorizontalAlignment="Left" Width="140" Style="{x:Null}">
+                        <MenuItem x:Name="_RegistroEmpleados" Header="_Registro Empleados" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_RegistroEmpleados_Click" />
+                        <MenuItem x:Name="_ListarEmpleados" Header="_Listar Empleados" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_ListarEmpleados_Click" />
+                    </MenuItem>
+                    <MenuItem x:Name="_Productos" Header="_Productos" HorizontalAlignment="Left" Width="140" Style="{x:Null}">
+                        <MenuItem x:Name="_RegistroProductos" Header="_Registro Productos" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_RegistroProductos_Click" />
+                        <MenuItem x:Name="_ListarProductos" Header="_Listar Productos" HorizontalAlignment="Left" Width="140" Style="{x:Null}" Click="_ListarProductos_Click" />
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="_Reserva de Hora" Background="#58ACFA" Style="{StaticResource MenuItemStyle}">
+                    <MenuItem x:Name="About" Header="About" HorizontalAlignment="Left" Width="140"/>
+                </MenuItem>
+                <MenuItem Header="_Orden Pedido" Background="#58ACFA" Style="{StaticResource MenuItemStyle}"/>
+                <MenuItem Header="_Boleta Servicio" Background="#58ACFA" Style="{StaticResource MenuItemStyle}"/>
+                <MenuItem Header="_Informes y Estadísticas" Background="#58ACFA" Style="{StaticResource MenuItemStyle}" Click="_Estadisticas_Click"/>
+            </Menu>
+        </StackPanel>
+        <Button x:Name="btn_salir"  HorizontalAlignment="Left" Margin="1222,-2,0,0" VerticalAlignment="Top"  Padding="20,20,20,20" RenderTransformOrigin="0.261,0.593" Style="{DynamicResource MetroCircleButtonStyle}" Background="#FF236CB6" BorderBrush="#FF295CE4" Click="btn_salir_Click" ToolTip="Cerrar Sesión">
+            <iconPacks:PackIconMaterial  Kind= "Power" Foreground="White" />
+        </Button>
+        <Label x:Name="lblTitulo" Content="Listado de Productos" HorizontalAlignment="Left" Margin="570,72,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Myriad Pro Light" FontWeight="Bold"/>
+
+        <DataGrid x:Name="dgProductos" AutoGenerateColumns="False" CanUserAddRows="False" CanUserResizeRows="False" MaxHeight="250" HorizontalAlignment="Left" Margin="122,203,0,0" VerticalAlignment="Top" Width="1156" BorderThickness="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nombre" IsReadOnly="True" Binding="{Binding Path=Nombre}" Width="*">
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#58ACFA"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Stock" IsReadOnly="True"  Binding="{Binding Path=Stock}" Width="*">
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#58ACFA"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Stock Critico" IsReadOnly="True"  Binding="{Binding Path=StockCritico}" Width="*">
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#58ACFA"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Precio de Compra" IsReadOnly="True"  Binding="{Binding Path=PrecioCompra, StringFormat=C0}" Width="*">
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#58ACFA"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Precio de Venta" IsReadOnly="True"  Binding="{Binding Path=PrecioVenta, StringFormat=C0}" Width="*">
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#58ACFA"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Fecha de Vencimiento" IsReadOnly="True"  Binding="{Binding Path=FechaVencimiento, StringFormat=\{0:dd/MM/yyyy\}}" Width="*">
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#58ACFA"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                </DataGridTextColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#58ACFA"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="Modificar" Background="White">
+                                <iconPacks:PackIconMaterial  Kind="Pencil" Foreground="Black" />
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#58ACFA"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="Eliminar" Background="White">
+                                <iconPacks:PackIconMaterial  Kind="Delete" Foreground="Red" />
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <ComboBox x:Name="cboTipoProducto" HorizontalAlignment="Left" Margin="439,139,0,0" VerticalAlignment="Top" Width="224" Height="29"/>
+        <Label x:Name="lblTipoProducto" Content="Tipo de Producto:" HorizontalAlignment="Left" Margin="439,108,0,0" VerticalAlignment="Top" Width="126"/>
+        <Button x:Name="btnFiltrar" Content="Filtrar" HorizontalAlignment="Left" Margin="772,139,0,0" VerticalAlignment="Top" Width="111" Height="29" Click="btnFiltrar_Click" Background="#58ACFA" BorderBrush="#FF0ECDEC"/>
+        <ComboBox x:Name="cboFamiliaProducto" HorizontalAlignment="Left" Margin="122,139,0,0" VerticalAlignment="Top" Width="224" Height="29" SelectionChanged="cboFamiliaProducto_SelectionChanged"/>
+        <Label x:Name="lblFamiliaProducto" Content="Familia de Producto:" HorizontalAlignment="Left" Margin="122,108,0,0" VerticalAlignment="Top" Width="126"/>
+        
+        <Label x:Name="lblFamiliaProductoMsg" HorizontalAlignment="Left" Margin="351,146,0,0" VerticalAlignment="Top" Style="{StaticResource MyLabelStyle}" Visibility="Hidden" >
+            <iconPacks:PackIconMaterial  Kind= "Exclamation" Foreground="White" />
+        </Label>
+        <Label x:Name="lblTipoProductoMsg" HorizontalAlignment="Left" Margin="668,146,0,0" VerticalAlignment="Top" Style="{StaticResource MyLabelStyle}" Visibility="Hidden" >
+            <iconPacks:PackIconMaterial  Kind= "Exclamation" Foreground="White" />
+        </Label>
+
+    </Grid>
+</Controls:MetroWindow>

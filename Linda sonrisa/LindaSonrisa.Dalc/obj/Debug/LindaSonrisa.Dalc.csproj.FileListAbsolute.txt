@@ -1,0 +1,16 @@
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\LindaSonrisa.Dalc.dll.config
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\LindaSonrisa.Dalc.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\LindaSonrisa.Dalc.pdb
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\EntityFramework.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\EntityFramework.xml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Dalc\obj\Debug\LindaSonrisa.Dalc.csprojResolveAssemblyReference.cache
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Dalc\obj\Debug\LindaSonrisa.Dalc.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Dalc\obj\Debug\LindaSonrisa.Dalc.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\LindaSonrisa.Dalc.dll.config
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\LindaSonrisa.Dalc.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\LindaSonrisa.Dalc.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\EntityFramework.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\EntityFramework.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Dalc\obj\Debug\LindaSonrisa.Dalc.csprojResolveAssemblyReference.cache
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Dalc\obj\Debug\LindaSonrisa.Dalc.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Dalc\obj\Debug\LindaSonrisa.Dalc.pdb

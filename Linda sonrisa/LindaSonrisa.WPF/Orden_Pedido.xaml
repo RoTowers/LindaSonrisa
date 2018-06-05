@@ -1,0 +1,60 @@
+﻿<Controls:MetroWindow x:Class="LindaSonrisa.WPF.Orden_Pedido"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LindaSonrisa.WPF"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        Title="S.WI.P" Height="597.999" Width="1506.849" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <StackPanel VerticalAlignment="Top" Background="#58ACFA">
+            <Menu Width="Auto" Height="Auto" Background="#58ACFA">
+                <Image Width="110" Height="Auto" Source="img/logo linda sonrrisa.png" />
+                <MenuItem Header="_Inicio" Background="#58ACFA" Style="{StaticResource MenuItemStyle}">
+                    <MenuItem x:Name="AppExit" Header="E_xit" HorizontalAlignment="Left" Width="140" Style="{StaticResource MenuItemStyle}"/>
+                </MenuItem>
+                <MenuItem Header="_Registro" Background="#58ACFA" Style="{StaticResource MenuItemStyle}">
+                    <MenuItem x:Name="Options" Header="_Options" HorizontalAlignment="Left" Width="140" Style="{x:Null}"/>
+                </MenuItem>
+                <MenuItem Header="_Reserva de Hora" Background="#58ACFA" Style="{StaticResource MenuItemStyle}">
+                    <MenuItem x:Name="About" Header="About" HorizontalAlignment="Left" Width="140"/>
+                </MenuItem>
+                <MenuItem Header="_Orden Pedido" Background="#58ACFA" Style="{StaticResource MenuItemStyle}"/>
+                <MenuItem Header="_Boleta Servicio" Background="#58ACFA" Style="{StaticResource MenuItemStyle}"/>
+                <MenuItem Header="_Informes y Estadísticas" Background="#58ACFA" Style="{StaticResource MenuItemStyle}"/>
+            </Menu>
+
+        </StackPanel>
+        <Button x:Name="btn_salir"  HorizontalAlignment="Left" Margin="1222,-2,0,0" VerticalAlignment="Top"  Padding="20,20,20,20" RenderTransformOrigin="0.261,0.593" Style="{DynamicResource MetroCircleButtonStyle}" Background="#FF236CB6" BorderBrush="#FF295CE4" Click="btn_salir_Click">
+            <iconPacks:PackIconMaterial  Kind= "Power" Foreground="White" />
+        </Button>
+
+        <ComboBox x:Name="cboFamiliaProductos" HorizontalAlignment="Left" Margin="206,177,0,0" VerticalAlignment="Top" Width="191" Height="41"/>
+        <Label x:Name="lblFamiliaProductos" Content="Familia de Productos:" HorizontalAlignment="Left" Margin="206,146,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cboTipoProducto" HorizontalAlignment="Left" Margin="569,177,0,0" VerticalAlignment="Top" Width="191" Height="41"/>
+        <Label x:Name="lblTipoProducto" Content="Tipo de Producto:" HorizontalAlignment="Left" Margin="569,146,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cboProducto" HorizontalAlignment="Left" Margin="921,177,0,0" VerticalAlignment="Top" Width="191" Height="41"/>
+        <Label x:Name="lblProducto" Content="Producto:" HorizontalAlignment="Left" Margin="921,146,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cboProveedor" HorizontalAlignment="Left" Margin="206,292,0,0" VerticalAlignment="Top" Width="191" Height="41"/>
+        <Label x:Name="lblProveedor" Content="Proveedor:" HorizontalAlignment="Left" Margin="206,261,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCantidad" HorizontalAlignment="Left" Height="41" Margin="658,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="58" PreviewTextInput="txtCantidad_PreviewTextInput"/>
+        <Label x:Name="lblCantidad" Content="Cantidad:" HorizontalAlignment="Left" Margin="569,292,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="921,282,0,0" VerticalAlignment="Top" Width="132" Height="47" Background="#58ACFA" BorderBrush="#FF0ECDEC"/>
+        <Button x:Name="btnPedir" Content="Pedir" HorizontalAlignment="Left" Margin="503,505,0,0" VerticalAlignment="Top" Width="132" Height="47" Background="#58ACFA" BorderBrush="#FF0ECDEC"/>
+        <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Margin="725,505,0,0" VerticalAlignment="Top" Width="132" Height="47" Background="#58ACFA" BorderBrush="#FF0ECDEC"/>
+        <DataGrid x:Name="dgPedidos" HorizontalAlignment="Left" Margin="448,374,0,0" VerticalAlignment="Top" ItemsSource="{Binding Path=Albums}" Grid.Row="0" AutoGenerateColumns="False" Width="500" Height="100" CanUserAddRows="False" CanUserDeleteRows="False" CanUserReorderColumns="False" CanUserResizeColumns="False" BorderThickness="1">
+            <DataGrid.Effect>
+                <DropShadowEffect Opacity="0.2" ShadowDepth="10" Direction="250" BlurRadius="60"/>
+            </DataGrid.Effect>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Familia" Binding="{Binding Genre.Name}" Width="auto" />
+                <DataGridTextColumn Header="Tipo" Binding="{Binding Genre.Name}" Width="auto" />
+                <DataGridTextColumn Header="Producto" Binding="{Binding Genre.Name}" Width="auto" />
+                <DataGridTextColumn Header="Proveedor" Binding="{Binding Genre.Name}" Width="auto" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label x:Name="lblTitulo" Content="Orden de Pedido" HorizontalAlignment="Left" Margin="610,74,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" FontFamily="Myriad Pro Light"/>
+    </Grid>
+</Controls:MetroWindow>

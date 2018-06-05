@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LSModelo.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BOLETA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="FECHA" Type="date" />
+    <Property Name="HORA" Type="date" />
+    <Property Name="CLIENTE_RUT" Type="varchar2" MaxLength="12" Nullable="false" />
+    <Property Name="EMPLEADO_RUT" Type="varchar2" MaxLength="12" Nullable="false" />
+    <Property Name="VALOR_SERVICIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="VALOR_PRODUCTO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="CARGO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar2" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="CLIENTE">
+    <Key>
+      <PropertyRef Name="RUT_PASAPORTE" />
+    </Key>
+    <Property Name="RUT_PASAPORTE" Type="varchar2" MaxLength="12" Nullable="false" />
+    <Property Name="DV" Type="varchar2" MaxLength="1" />
+    <Property Name="NOMBRE" Type="varchar2" MaxLength="15" />
+    <Property Name="APELLIDO_P" Type="varchar2" MaxLength="15" />
+    <Property Name="APELLIDO_M" Type="varchar2" MaxLength="15" />
+    <Property Name="DIRECCION" Type="varchar2" MaxLength="30" />
+    <Property Name="ID_COMUNA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="R_P" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityType Name="COMUNA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOMBRE_COMUNA" Type="varchar2" MaxLength="30" />
+    <Property Name="ID_PROVINCIA" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="DETALLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_SERVICIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="ID_BOLETA" Type="number" Precision="38" Scale="0" />
+    <Property Name="HORA" Type="date" />
+  </EntityType>
+  <EntityType Name="DOCUMENTO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar2" MaxLength="30" />
+    <Property Name="ID_SECONOMICA" Type="varchar2" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="EMPLEADO">
+    <Key>
+      <PropertyRef Name="RUT" />
+    </Key>
+    <Property Name="RUT" Type="varchar2" MaxLength="12" Nullable="false" />
+    <Property Name="DV" Type="varchar2" MaxLength="1" />
+    <Property Name="NOMBRE" Type="varchar2" MaxLength="15" />
+    <Property Name="APELLIDO_P" Type="varchar2" MaxLength="15" />
+    <Property Name="APELLIDO_M" Type="varchar2" MaxLength="15" />
+    <Property Name="ID_COMUNA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DIRECCION" Type="varchar2" MaxLength="30" />
+    <Property Name="ID_CARGO" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FAMILIA_DE_PRODUCTOS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar2" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="HORARIO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DIA_ATENCION" Type="date" />
+    <Property Name="HORA_ATENCION" Type="date" />
+    <Property Name="ID_SERVICIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_ODONTOLOGO" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ODONTOLOGO">
+    <Key>
+      <PropertyRef Name="ID_ODONTOLOGO" />
+    </Key>
+    <Property Name="ID_ODONTOLOGO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="RUT_EMPLEADO" Type="varchar2" MaxLength="12" />
+  </EntityType>
+  <EntityType Name="ORDEN_DE_PEDIDO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="EMPLEADO_RUT" Type="varchar2" MaxLength="12" Nullable="false" />
+    <Property Name="PROVEEDOR_RUT" Type="varchar2" MaxLength="12" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ORDENES_PRODUCTO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_PRODUCTO" Type="varchar2" MaxLength="9" Nullable="false" />
+    <Property Name="ID_ORDEN" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PRODUCTO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar2" MaxLength="9" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar2" MaxLength="30" />
+    <Property Name="STOCK" Type="number" Precision="38" Scale="0" />
+    <Property Name="STOCK_CRITICO" Type="number" Precision="38" Scale="0" />
+    <Property Name="PRECIO_COMPRA" Type="number" Precision="38" Scale="0" />
+    <Property Name="PRECIO_VENTA" Type="number" Precision="38" Scale="0" />
+    <Property Name="FECHA_VENCIMIENTO" Type="date" />
+    <Property Name="TIPO_DE_PRODUCTO_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PROVEEDOR">
+    <Key>
+      <PropertyRef Name="RUT" />
+    </Key>
+    <Property Name="RUT" Type="varchar2" MaxLength="12" Nullable="false" />
+    <Property Name="DV" Type="varchar2" MaxLength="1" />
+    <Property Name="NOMBRE" Type="varchar2" MaxLength="20" />
+    <Property Name="RUBRO" Type="varchar2" MaxLength="20" />
+    <Property Name="TELEFONO" Type="number" Precision="38" Scale="0" />
+    <Property Name="CORREO" Type="varchar2" MaxLength="40" />
+    <Property Name="DIRECCION" Type="varchar2" MaxLength="30" />
+    <Property Name="ID_COMUNA" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="PROVINCIA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOMBRE_PROVINCIA" Type="varchar2" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="RESERVA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_SERVICIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="FECHA" Type="date" />
+    <Property Name="HORA" Type="date" />
+    <Property Name="CLIENTE_RUT" Type="varchar2" MaxLength="12" Nullable="false" />
+    <Property Name="ID_ODONTOLOGO" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SERVICIO">
+    <Key>
+      <PropertyRef Name="ID_SERVICIO" />
+    </Key>
+    <Property Name="ID_SERVICIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOMBRE_SERVICIO" Type="varchar2" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="SERVICIO_PRODUCTO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PRODUCTO_ID" Type="varchar2" MaxLength="9" Nullable="false" />
+    <Property Name="ID_SERVICIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CANTIDAD" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="SITUACION_ECONOMICA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar2" MaxLength="20" Nullable="false" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" />
+    <Property Name="CLIENTE_RUT" Type="varchar2" MaxLength="12" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TIPO_DE_PRODUCTO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar2" MaxLength="30" />
+    <Property Name="FAMILIA_DE_PRODUCTOS_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USUARIOS">
+    <Key>
+      <PropertyRef Name="NOMBRE" />
+    </Key>
+    <Property Name="NOMBRE" Type="varchar2" MaxLength="30" Nullable="false" />
+    <Property Name="PERFIL" Type="varchar2" MaxLength="20" />
+    <Property Name="CONTRASENA" Type="varchar2" MaxLength="15" />
+    <Property Name="EMPLEADO_RUT" Type="varchar2" MaxLength="12" />
+    <Property Name="CLIENTE_R_P" Type="varchar2" MaxLength="12" />
+    <Property Name="PROVEEDOR_RUT" Type="varchar2" MaxLength="12" />
+    <Property Name="LOGIN" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <Association Name="BOLETA_CLIENTE_FK">
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="1" />
+    <End Role="BOLETA" Type="Self.BOLETA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTE">
+        <PropertyRef Name="RUT_PASAPORTE" />
+      </Principal>
+      <Dependent Role="BOLETA">
+        <PropertyRef Name="CLIENTE_RUT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="BOLETA_EMPLEADO_FK">
+    <End Role="EMPLEADO" Type="Self.EMPLEADO" Multiplicity="1" />
+    <End Role="BOLETA" Type="Self.BOLETA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMPLEADO">
+        <PropertyRef Name="RUT" />
+      </Principal>
+      <Dependent Role="BOLETA">
+        <PropertyRef Name="EMPLEADO_RUT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Documento_Situacion">
+    <End Role="SITUACION_ECONOMICA" Type="Self.SITUACION_ECONOMICA" Multiplicity="0..1" />
+    <End Role="DOCUMENTO" Type="Self.DOCUMENTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SITUACION_ECONOMICA">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DOCUMENTO">
+        <PropertyRef Name="ID_SECONOMICA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Horario_Odontologo">
+    <End Role="ODONTOLOGO" Type="Self.ODONTOLOGO" Multiplicity="1" />
+    <End Role="HORARIO" Type="Self.HORARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODONTOLOGO">
+        <PropertyRef Name="ID_ODONTOLOGO" />
+      </Principal>
+      <Dependent Role="HORARIO">
+        <PropertyRef Name="ID_ODONTOLOGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Horario_Servicio_FK">
+    <End Role="SERVICIO" Type="Self.SERVICIO" Multiplicity="1" />
+    <End Role="HORARIO" Type="Self.HORARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SERVICIO">
+        <PropertyRef Name="ID_SERVICIO" />
+      </Principal>
+      <Dependent Role="HORARIO">
+        <PropertyRef Name="ID_SERVICIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Odontologo_Empleado_FK">
+    <End Role="EMPLEADO" Type="Self.EMPLEADO" Multiplicity="0..1" />
+    <End Role="ODONTOLOGO" Type="Self.ODONTOLOGO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMPLEADO">
+        <PropertyRef Name="RUT" />
+      </Principal>
+      <Dependent Role="ODONTOLOGO">
+        <PropertyRef Name="RUT_EMPLEADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ORDEN_DE_PEDIDO_EMPLEADO_FK">
+    <End Role="EMPLEADO" Type="Self.EMPLEADO" Multiplicity="1" />
+    <End Role="ORDEN_DE_PEDIDO" Type="Self.ORDEN_DE_PEDIDO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMPLEADO">
+        <PropertyRef Name="RUT" />
+      </Principal>
+      <Dependent Role="ORDEN_DE_PEDIDO">
+        <PropertyRef Name="EMPLEADO_RUT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ORDEN_DE_PEDIDO_PROVEEDOR_FK">
+    <End Role="PROVEEDOR" Type="Self.PROVEEDOR" Multiplicity="1" />
+    <End Role="ORDEN_DE_PEDIDO" Type="Self.ORDEN_DE_PEDIDO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PROVEEDOR">
+        <PropertyRef Name="RUT" />
+      </Principal>
+      <Dependent Role="ORDEN_DE_PEDIDO">
+        <PropertyRef Name="PROVEEDOR_RUT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PRODUCTO_TIPO_DE_PRODUCTO_FK">
+    <End Role="TIPO_DE_PRODUCTO" Type="Self.TIPO_DE_PRODUCTO" Multiplicity="1" />
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_DE_PRODUCTO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PRODUCTO">
+        <PropertyRef Name="TIPO_DE_PRODUCTO_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship11">
+    <End Role="COMUNA" Type="Self.COMUNA" Multiplicity="1" />
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="COMUNA">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="ID_COMUNA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship16">
+    <End Role="PROVEEDOR" Type="Self.PROVEEDOR" Multiplicity="0..1" />
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PROVEEDOR">
+        <PropertyRef Name="RUT" />
+      </Principal>
+      <Dependent Role="USUARIOS">
+        <PropertyRef Name="PROVEEDOR_RUT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship18">
+    <End Role="ODONTOLOGO" Type="Self.ODONTOLOGO" Multiplicity="1" />
+    <End Role="RESERVA" Type="Self.RESERVA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODONTOLOGO">
+        <PropertyRef Name="ID_ODONTOLOGO" />
+      </Principal>
+      <Dependent Role="RESERVA">
+        <PropertyRef Name="ID_ODONTOLOGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship20">
+    <End Role="SERVICIO" Type="Self.SERVICIO" Multiplicity="0..1" />
+    <End Role="DETALLE" Type="Self.DETALLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SERVICIO">
+        <PropertyRef Name="ID_SERVICIO" />
+      </Principal>
+      <Dependent Role="DETALLE">
+        <PropertyRef Name="ID_SERVICIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship22">
+    <End Role="BOLETA" Type="Self.BOLETA" Multiplicity="0..1" />
+    <End Role="DETALLE" Type="Self.DETALLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BOLETA">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DETALLE">
+        <PropertyRef Name="ID_BOLETA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship29">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+    <End Role="ORDENES_PRODUCTO" Type="Self.ORDENES_PRODUCTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ORDENES_PRODUCTO">
+        <PropertyRef Name="ID_PRODUCTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship31">
+    <End Role="ORDEN_DE_PEDIDO" Type="Self.ORDEN_DE_PEDIDO" Multiplicity="1" />
+    <End Role="ORDENES_PRODUCTO" Type="Self.ORDENES_PRODUCTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ORDEN_DE_PEDIDO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ORDENES_PRODUCTO">
+        <PropertyRef Name="ID_ORDEN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship32">
+    <End Role="CARGO" Type="Self.CARGO" Multiplicity="1" />
+    <End Role="EMPLEADO" Type="Self.EMPLEADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CARGO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EMPLEADO">
+        <PropertyRef Name="ID_CARGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship33">
+    <End Role="PROVINCIA" Type="Self.PROVINCIA" Multiplicity="0..1" />
+    <End Role="COMUNA" Type="Self.COMUNA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PROVINCIA">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="COMUNA">
+        <PropertyRef Name="ID_PROVINCIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship36">
+    <End Role="COMUNA" Type="Self.COMUNA" Multiplicity="0..1" />
+    <End Role="PROVEEDOR" Type="Self.PROVEEDOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="COMUNA">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PROVEEDOR">
+        <PropertyRef Name="ID_COMUNA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship9">
+    <End Role="COMUNA" Type="Self.COMUNA" Multiplicity="1" />
+    <End Role="EMPLEADO" Type="Self.EMPLEADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="COMUNA">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EMPLEADO">
+        <PropertyRef Name="ID_COMUNA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RESERVA_CLIENTE_FK">
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="1" />
+    <End Role="RESERVA" Type="Self.RESERVA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTE">
+        <PropertyRef Name="RUT_PASAPORTE" />
+      </Principal>
+      <Dependent Role="RESERVA">
+        <PropertyRef Name="CLIENTE_RUT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RESERVA_SERVICIO_FK">
+    <End Role="SERVICIO" Type="Self.SERVICIO" Multiplicity="0..1" />
+    <End Role="RESERVA" Type="Self.RESERVA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SERVICIO">
+        <PropertyRef Name="ID_SERVICIO" />
+      </Principal>
+      <Dependent Role="RESERVA">
+        <PropertyRef Name="ID_SERVICIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SECONOMICA_CLIENTE_FK">
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="1" />
+    <End Role="SITUACION_ECONOMICA" Type="Self.SITUACION_ECONOMICA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTE">
+        <PropertyRef Name="RUT_PASAPORTE" />
+      </Principal>
+      <Dependent Role="SITUACION_ECONOMICA">
+        <PropertyRef Name="CLIENTE_RUT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SERVICIO_PRODUCTO_PRODUCTO_FK">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+    <End Role="SERVICIO_PRODUCTO" Type="Self.SERVICIO_PRODUCTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SERVICIO_PRODUCTO">
+        <PropertyRef Name="PRODUCTO_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SERVICIO_PRODUCTO_SERVICIO_FK">
+    <End Role="SERVICIO" Type="Self.SERVICIO" Multiplicity="1" />
+    <End Role="SERVICIO_PRODUCTO" Type="Self.SERVICIO_PRODUCTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SERVICIO">
+        <PropertyRef Name="ID_SERVICIO" />
+      </Principal>
+      <Dependent Role="SERVICIO_PRODUCTO">
+        <PropertyRef Name="ID_SERVICIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TPFAMILIA_DE_PRODUCTOS_FK">
+    <End Role="FAMILIA_DE_PRODUCTOS" Type="Self.FAMILIA_DE_PRODUCTOS" Multiplicity="1" />
+    <End Role="TIPO_DE_PRODUCTO" Type="Self.TIPO_DE_PRODUCTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FAMILIA_DE_PRODUCTOS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TIPO_DE_PRODUCTO">
+        <PropertyRef Name="FAMILIA_DE_PRODUCTOS_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="USUARIOS_CLIENTE_FK">
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="0..1" />
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTE">
+        <PropertyRef Name="RUT_PASAPORTE" />
+      </Principal>
+      <Dependent Role="USUARIOS">
+        <PropertyRef Name="CLIENTE_R_P" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="USUARIOS_EMPLEADO_FK">
+    <End Role="EMPLEADO" Type="Self.EMPLEADO" Multiplicity="0..1" />
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EMPLEADO">
+        <PropertyRef Name="RUT" />
+      </Principal>
+      <Dependent Role="USUARIOS">
+        <PropertyRef Name="EMPLEADO_RUT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LSModeloStoreContainer">
+    <EntitySet Name="BOLETA" EntityType="Self.BOLETA" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="CARGO" EntityType="Self.CARGO" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="CLIENTE" EntityType="Self.CLIENTE" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="COMUNA" EntityType="Self.COMUNA" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="DETALLE" EntityType="Self.DETALLE" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="DOCUMENTO" EntityType="Self.DOCUMENTO" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="EMPLEADO" EntityType="Self.EMPLEADO" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="FAMILIA_DE_PRODUCTOS" EntityType="Self.FAMILIA_DE_PRODUCTOS" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="HORARIO" EntityType="Self.HORARIO" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="ODONTOLOGO" EntityType="Self.ODONTOLOGO" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="ORDEN_DE_PEDIDO" EntityType="Self.ORDEN_DE_PEDIDO" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="ORDENES_PRODUCTO" EntityType="Self.ORDENES_PRODUCTO" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="PRODUCTO" EntityType="Self.PRODUCTO" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="PROVEEDOR" EntityType="Self.PROVEEDOR" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="PROVINCIA" EntityType="Self.PROVINCIA" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="RESERVA" EntityType="Self.RESERVA" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="SERVICIO" EntityType="Self.SERVICIO" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="SERVICIO_PRODUCTO" EntityType="Self.SERVICIO_PRODUCTO" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="SITUACION_ECONOMICA" EntityType="Self.SITUACION_ECONOMICA" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="TIPO_DE_PRODUCTO" EntityType="Self.TIPO_DE_PRODUCTO" Schema="LINDASONRISA" store:Type="Tables" />
+    <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" Schema="LINDASONRISA" store:Type="Tables" />
+    <AssociationSet Name="BOLETA_CLIENTE_FK" Association="Self.BOLETA_CLIENTE_FK">
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+      <End Role="BOLETA" EntitySet="BOLETA" />
+    </AssociationSet>
+    <AssociationSet Name="BOLETA_EMPLEADO_FK" Association="Self.BOLETA_EMPLEADO_FK">
+      <End Role="EMPLEADO" EntitySet="EMPLEADO" />
+      <End Role="BOLETA" EntitySet="BOLETA" />
+    </AssociationSet>
+    <AssociationSet Name="Documento_Situacion" Association="Self.Documento_Situacion">
+      <End Role="SITUACION_ECONOMICA" EntitySet="SITUACION_ECONOMICA" />
+      <End Role="DOCUMENTO" EntitySet="DOCUMENTO" />
+    </AssociationSet>
+    <AssociationSet Name="Horario_Odontologo" Association="Self.Horario_Odontologo">
+      <End Role="ODONTOLOGO" EntitySet="ODONTOLOGO" />
+      <End Role="HORARIO" EntitySet="HORARIO" />
+    </AssociationSet>
+    <AssociationSet Name="Horario_Servicio_FK" Association="Self.Horario_Servicio_FK">
+      <End Role="SERVICIO" EntitySet="SERVICIO" />
+      <End Role="HORARIO" EntitySet="HORARIO" />
+    </AssociationSet>
+    <AssociationSet Name="Odontologo_Empleado_FK" Association="Self.Odontologo_Empleado_FK">
+      <End Role="EMPLEADO" EntitySet="EMPLEADO" />
+      <End Role="ODONTOLOGO" EntitySet="ODONTOLOGO" />
+    </AssociationSet>
+    <AssociationSet Name="ORDEN_DE_PEDIDO_EMPLEADO_FK" Association="Self.ORDEN_DE_PEDIDO_EMPLEADO_FK">
+      <End Role="EMPLEADO" EntitySet="EMPLEADO" />
+      <End Role="ORDEN_DE_PEDIDO" EntitySet="ORDEN_DE_PEDIDO" />
+    </AssociationSet>
+    <AssociationSet Name="ORDEN_DE_PEDIDO_PROVEEDOR_FK" Association="Self.ORDEN_DE_PEDIDO_PROVEEDOR_FK">
+      <End Role="PROVEEDOR" EntitySet="PROVEEDOR" />
+      <End Role="ORDEN_DE_PEDIDO" EntitySet="ORDEN_DE_PEDIDO" />
+    </AssociationSet>
+    <AssociationSet Name="PRODUCTO_TIPO_DE_PRODUCTO_FK" Association="Self.PRODUCTO_TIPO_DE_PRODUCTO_FK">
+      <End Role="TIPO_DE_PRODUCTO" EntitySet="TIPO_DE_PRODUCTO" />
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship11" Association="Self.Relationship11">
+      <End Role="COMUNA" EntitySet="COMUNA" />
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship16" Association="Self.Relationship16">
+      <End Role="PROVEEDOR" EntitySet="PROVEEDOR" />
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship18" Association="Self.Relationship18">
+      <End Role="ODONTOLOGO" EntitySet="ODONTOLOGO" />
+      <End Role="RESERVA" EntitySet="RESERVA" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship20" Association="Self.Relationship20">
+      <End Role="SERVICIO" EntitySet="SERVICIO" />
+      <End Role="DETALLE" EntitySet="DETALLE" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship22" Association="Self.Relationship22">
+      <End Role="BOLETA" EntitySet="BOLETA" />
+      <End Role="DETALLE" EntitySet="DETALLE" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship29" Association="Self.Relationship29">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="ORDENES_PRODUCTO" EntitySet="ORDENES_PRODUCTO" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship31" Association="Self.Relationship31">
+      <End Role="ORDEN_DE_PEDIDO" EntitySet="ORDEN_DE_PEDIDO" />
+      <End Role="ORDENES_PRODUCTO" EntitySet="ORDENES_PRODUCTO" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship32" Association="Self.Relationship32">
+      <End Role="CARGO" EntitySet="CARGO" />
+      <End Role="EMPLEADO" EntitySet="EMPLEADO" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship33" Association="Self.Relationship33">
+      <End Role="PROVINCIA" EntitySet="PROVINCIA" />
+      <End Role="COMUNA" EntitySet="COMUNA" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship36" Association="Self.Relationship36">
+      <End Role="COMUNA" EntitySet="COMUNA" />
+      <End Role="PROVEEDOR" EntitySet="PROVEEDOR" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship9" Association="Self.Relationship9">
+      <End Role="COMUNA" EntitySet="COMUNA" />
+      <End Role="EMPLEADO" EntitySet="EMPLEADO" />
+    </AssociationSet>
+    <AssociationSet Name="RESERVA_CLIENTE_FK" Association="Self.RESERVA_CLIENTE_FK">
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+      <End Role="RESERVA" EntitySet="RESERVA" />
+    </AssociationSet>
+    <AssociationSet Name="RESERVA_SERVICIO_FK" Association="Self.RESERVA_SERVICIO_FK">
+      <End Role="SERVICIO" EntitySet="SERVICIO" />
+      <End Role="RESERVA" EntitySet="RESERVA" />
+    </AssociationSet>
+    <AssociationSet Name="SECONOMICA_CLIENTE_FK" Association="Self.SECONOMICA_CLIENTE_FK">
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+      <End Role="SITUACION_ECONOMICA" EntitySet="SITUACION_ECONOMICA" />
+    </AssociationSet>
+    <AssociationSet Name="SERVICIO_PRODUCTO_PRODUCTO_FK" Association="Self.SERVICIO_PRODUCTO_PRODUCTO_FK">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="SERVICIO_PRODUCTO" EntitySet="SERVICIO_PRODUCTO" />
+    </AssociationSet>
+    <AssociationSet Name="SERVICIO_PRODUCTO_SERVICIO_FK" Association="Self.SERVICIO_PRODUCTO_SERVICIO_FK">
+      <End Role="SERVICIO" EntitySet="SERVICIO" />
+      <End Role="SERVICIO_PRODUCTO" EntitySet="SERVICIO_PRODUCTO" />
+    </AssociationSet>
+    <AssociationSet Name="TPFAMILIA_DE_PRODUCTOS_FK" Association="Self.TPFAMILIA_DE_PRODUCTOS_FK">
+      <End Role="FAMILIA_DE_PRODUCTOS" EntitySet="FAMILIA_DE_PRODUCTOS" />
+      <End Role="TIPO_DE_PRODUCTO" EntitySet="TIPO_DE_PRODUCTO" />
+    </AssociationSet>
+    <AssociationSet Name="USUARIOS_CLIENTE_FK" Association="Self.USUARIOS_CLIENTE_FK">
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="USUARIOS_EMPLEADO_FK" Association="Self.USUARIOS_EMPLEADO_FK">
+      <End Role="EMPLEADO" EntitySet="EMPLEADO" />
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

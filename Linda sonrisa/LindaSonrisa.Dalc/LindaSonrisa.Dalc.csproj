@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6AC8EFCB-BA6E-4EAA-93FF-8D0D4C741EDA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LindaSonrisa.Dalc</RootNamespace>
+    <AssemblyName>LindaSonrisa.Dalc</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BOLETA.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CARGO.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIENTE.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COMUNA.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DETALLE.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DOCUMENTO.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EMPLEADO.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FAMILIA_DE_PRODUCTOS.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HORARIO.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModeloLS.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloLS.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModeloLS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModeloLS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloLS.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ODONTOLOGO.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ORDENES_PRODUCTO.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ORDEN_DE_PEDIDO.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUCTO.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PROVEEDOR.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PROVINCIA.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RESERVA.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SERVICIO.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SERVICIO_PRODUCTO.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SITUACION_ECONOMICA.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TIPO_DE_PRODUCTO.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="USUARIOS.cs">
+      <DependentUpon>ModeloLS.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="ModeloLS.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModeloLS.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ModeloLS.edmx.diagram">
+      <DependentUpon>ModeloLS.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModeloLS.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModeloLS.edmx</DependentUpon>
+      <LastGenOutput>ModeloLS.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ModeloLS.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModeloLS.edmx</DependentUpon>
+      <LastGenOutput>ModeloLS.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

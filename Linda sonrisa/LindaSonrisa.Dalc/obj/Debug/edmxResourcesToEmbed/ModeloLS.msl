@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LSModeloStoreContainer" CdmEntityContainer="LindaSonrisaEntities">
+    <EntitySetMapping Name="BOLETA">
+      <EntityTypeMapping TypeName="LSModelo.BOLETA">
+        <MappingFragment StoreEntitySet="BOLETA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="CLIENTE_RUT" ColumnName="CLIENTE_RUT" />
+          <ScalarProperty Name="EMPLEADO_RUT" ColumnName="EMPLEADO_RUT" />
+          <ScalarProperty Name="VALOR_SERVICIO" ColumnName="VALOR_SERVICIO" />
+          <ScalarProperty Name="VALOR_PRODUCTO" ColumnName="VALOR_PRODUCTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CARGO">
+      <EntityTypeMapping TypeName="LSModelo.CARGO">
+        <MappingFragment StoreEntitySet="CARGO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIENTE">
+      <EntityTypeMapping TypeName="LSModelo.CLIENTE">
+        <MappingFragment StoreEntitySet="CLIENTE">
+          <ScalarProperty Name="RUT_PASAPORTE" ColumnName="RUT_PASAPORTE" />
+          <ScalarProperty Name="DV" ColumnName="DV" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="APELLIDO_P" ColumnName="APELLIDO_P" />
+          <ScalarProperty Name="APELLIDO_M" ColumnName="APELLIDO_M" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="ID_COMUNA" ColumnName="ID_COMUNA" />
+          <ScalarProperty Name="R_P" ColumnName="R_P" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COMUNA">
+      <EntityTypeMapping TypeName="LSModelo.COMUNA">
+        <MappingFragment StoreEntitySet="COMUNA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOMBRE_COMUNA" ColumnName="NOMBRE_COMUNA" />
+          <ScalarProperty Name="ID_PROVINCIA" ColumnName="ID_PROVINCIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DETALLE">
+      <EntityTypeMapping TypeName="LSModelo.DETALLE">
+        <MappingFragment StoreEntitySet="DETALLE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_SERVICIO" ColumnName="ID_SERVICIO" />
+          <ScalarProperty Name="ID_BOLETA" ColumnName="ID_BOLETA" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DOCUMENTO">
+      <EntityTypeMapping TypeName="LSModelo.DOCUMENTO">
+        <MappingFragment StoreEntitySet="DOCUMENTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="ID_SECONOMICA" ColumnName="ID_SECONOMICA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMPLEADO">
+      <EntityTypeMapping TypeName="LSModelo.EMPLEADO">
+        <MappingFragment StoreEntitySet="EMPLEADO">
+          <ScalarProperty Name="RUT" ColumnName="RUT" />
+          <ScalarProperty Name="DV" ColumnName="DV" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="APELLIDO_P" ColumnName="APELLIDO_P" />
+          <ScalarProperty Name="APELLIDO_M" ColumnName="APELLIDO_M" />
+          <ScalarProperty Name="ID_COMUNA" ColumnName="ID_COMUNA" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="ID_CARGO" ColumnName="ID_CARGO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FAMILIA_DE_PRODUCTOS">
+      <EntityTypeMapping TypeName="LSModelo.FAMILIA_DE_PRODUCTOS">
+        <MappingFragment StoreEntitySet="FAMILIA_DE_PRODUCTOS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HORARIO">
+      <EntityTypeMapping TypeName="LSModelo.HORARIO">
+        <MappingFragment StoreEntitySet="HORARIO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DIA_ATENCION" ColumnName="DIA_ATENCION" />
+          <ScalarProperty Name="HORA_ATENCION" ColumnName="HORA_ATENCION" />
+          <ScalarProperty Name="ID_SERVICIO" ColumnName="ID_SERVICIO" />
+          <ScalarProperty Name="ID_ODONTOLOGO" ColumnName="ID_ODONTOLOGO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ODONTOLOGO">
+      <EntityTypeMapping TypeName="LSModelo.ODONTOLOGO">
+        <MappingFragment StoreEntitySet="ODONTOLOGO">
+          <ScalarProperty Name="ID_ODONTOLOGO" ColumnName="ID_ODONTOLOGO" />
+          <ScalarProperty Name="RUT_EMPLEADO" ColumnName="RUT_EMPLEADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ORDEN_DE_PEDIDO">
+      <EntityTypeMapping TypeName="LSModelo.ORDEN_DE_PEDIDO">
+        <MappingFragment StoreEntitySet="ORDEN_DE_PEDIDO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EMPLEADO_RUT" ColumnName="EMPLEADO_RUT" />
+          <ScalarProperty Name="PROVEEDOR_RUT" ColumnName="PROVEEDOR_RUT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ORDENES_PRODUCTO">
+      <EntityTypeMapping TypeName="LSModelo.ORDENES_PRODUCTO">
+        <MappingFragment StoreEntitySet="ORDENES_PRODUCTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_PRODUCTO" ColumnName="ID_PRODUCTO" />
+          <ScalarProperty Name="ID_ORDEN" ColumnName="ID_ORDEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUCTO">
+      <EntityTypeMapping TypeName="LSModelo.PRODUCTO">
+        <MappingFragment StoreEntitySet="PRODUCTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="STOCK" ColumnName="STOCK" />
+          <ScalarProperty Name="STOCK_CRITICO" ColumnName="STOCK_CRITICO" />
+          <ScalarProperty Name="PRECIO_COMPRA" ColumnName="PRECIO_COMPRA" />
+          <ScalarProperty Name="PRECIO_VENTA" ColumnName="PRECIO_VENTA" />
+          <ScalarProperty Name="FECHA_VENCIMIENTO" ColumnName="FECHA_VENCIMIENTO" />
+          <ScalarProperty Name="TIPO_DE_PRODUCTO_ID" ColumnName="TIPO_DE_PRODUCTO_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROVEEDOR">
+      <EntityTypeMapping TypeName="LSModelo.PROVEEDOR">
+        <MappingFragment StoreEntitySet="PROVEEDOR">
+          <ScalarProperty Name="RUT" ColumnName="RUT" />
+          <ScalarProperty Name="DV" ColumnName="DV" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="RUBRO" ColumnName="RUBRO" />
+          <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+          <ScalarProperty Name="CORREO" ColumnName="CORREO" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="ID_COMUNA" ColumnName="ID_COMUNA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROVINCIA">
+      <EntityTypeMapping TypeName="LSModelo.PROVINCIA">
+        <MappingFragment StoreEntitySet="PROVINCIA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOMBRE_PROVINCIA" ColumnName="NOMBRE_PROVINCIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RESERVA">
+      <EntityTypeMapping TypeName="LSModelo.RESERVA">
+        <MappingFragment StoreEntitySet="RESERVA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_SERVICIO" ColumnName="ID_SERVICIO" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="CLIENTE_RUT" ColumnName="CLIENTE_RUT" />
+          <ScalarProperty Name="ID_ODONTOLOGO" ColumnName="ID_ODONTOLOGO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SERVICIO">
+      <EntityTypeMapping TypeName="LSModelo.SERVICIO">
+        <MappingFragment StoreEntitySet="SERVICIO">
+          <ScalarProperty Name="ID_SERVICIO" ColumnName="ID_SERVICIO" />
+          <ScalarProperty Name="NOMBRE_SERVICIO" ColumnName="NOMBRE_SERVICIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SERVICIO_PRODUCTO">
+      <EntityTypeMapping TypeName="LSModelo.SERVICIO_PRODUCTO">
+        <MappingFragment StoreEntitySet="SERVICIO_PRODUCTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PRODUCTO_ID" ColumnName="PRODUCTO_ID" />
+          <ScalarProperty Name="ID_SERVICIO" ColumnName="ID_SERVICIO" />
+          <ScalarProperty Name="CANTIDAD" ColumnName="CANTIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SITUACION_ECONOMICA">
+      <EntityTypeMapping TypeName="LSModelo.SITUACION_ECONOMICA">
+        <MappingFragment StoreEntitySet="SITUACION_ECONOMICA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="CLIENTE_RUT" ColumnName="CLIENTE_RUT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_DE_PRODUCTO">
+      <EntityTypeMapping TypeName="LSModelo.TIPO_DE_PRODUCTO">
+        <MappingFragment StoreEntitySet="TIPO_DE_PRODUCTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="FAMILIA_DE_PRODUCTOS_ID" ColumnName="FAMILIA_DE_PRODUCTOS_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIOS">
+      <EntityTypeMapping TypeName="LSModelo.USUARIOS">
+        <MappingFragment StoreEntitySet="USUARIOS">
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="PERFIL" ColumnName="PERFIL" />
+          <ScalarProperty Name="CONTRASENA" ColumnName="CONTRASENA" />
+          <ScalarProperty Name="EMPLEADO_RUT" ColumnName="EMPLEADO_RUT" />
+          <ScalarProperty Name="CLIENTE_R_P" ColumnName="CLIENTE_R_P" />
+          <ScalarProperty Name="PROVEEDOR_RUT" ColumnName="PROVEEDOR_RUT" />
+          <ScalarProperty Name="LOGIN" ColumnName="LOGIN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,50 @@
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\ApplicationInsights.config
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Servicio.dll.config
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Servicio.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Servicio.pdb
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Negocio.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.Web.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Dalc.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\EntityFramework.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Negocio.pdb
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.Web.xml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Dalc.pdb
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\bin\EntityFramework.xml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.csprojResolveAssemblyReference.cache
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\ApplicationInsights.config
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Servicio.dll.config
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Servicio.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Servicio.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Negocio.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.DependencyCollector.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.Web.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.WindowsServer.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.ApplicationInsights.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Dalc.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\EntityFramework.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Negocio.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.DependencyCollector.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.Web.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.WindowsServer.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.ApplicationInsights.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Dalc.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\bin\EntityFramework.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.csprojResolveAssemblyReference.cache
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.pdb

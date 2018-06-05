@@ -1,0 +1,104 @@
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.WPF.exe.config
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.WPF.exe
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.WPF.pdb
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.Negocio.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.Dalc.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\EntityFramework.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.Negocio.pdb
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.Dalc.pdb
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\EntityFramework.xml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\App.g.cs
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF_MarkupCompile.cache
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF_MarkupCompile.lref
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\MainWindow.baml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.g.resources
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.Properties.Resources.resources
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.csproj.GenerateResource.Cache
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.exe
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.pdb
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.csprojResolveAssemblyReference.cache
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Bienvendia.g.cs
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Bienvendia.baml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Inicio.g.cs
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Inicio.baml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\ControlzEx.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\ControlzEx.pdb
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.pdb
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.xml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\App.baml
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.IconPacks.dll
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.IconPacks.pdb
+C:\Users\Alexis\Documents\portafolio\net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.IconPacks.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.WPF.exe.config
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.WPF.exe
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.WPF.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\ControlzEx.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.Negocio.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.IconPacks.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\System.Windows.Interactivity.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.Dalc.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\EntityFramework.dll
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.Negocio.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\ControlzEx.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.IconPacks.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.IconPacks.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.Dalc.pdb
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\EntityFramework.xml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.csprojResolveAssemblyReference.cache
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.csproj.ResolveComReference.cache
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Cambio_Contrasena.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Boleta_Servicio.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Estadisticas.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Inicio.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\ListarClientes.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\ListarServicios.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Listar_Empleados.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Listar_Productos.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Listar_Proveedores.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\MainWindow.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Orden_Pedido.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\RegistroServicio.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Registro_Cliente.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Registro_Empleado.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Registro_Producto.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Registro_Proveedores.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Reserva_Hora.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\App.g.cs
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF_MarkupCompile.cache
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF_MarkupCompile.lref
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\App.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Cambio_Contrasena.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Boleta_Servicio.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Estadisticas.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Inicio.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\ListarClientes.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\ListarServicios.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Listar_Empleados.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Listar_Productos.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Listar_Proveedores.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\MainWindow.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Orden_Pedido.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\RegistroServicio.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Registro_Cliente.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Registro_Empleado.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Registro_Producto.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Registro_Proveedores.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\Reserva_Hora.baml
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.g.resources
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.Properties.Resources.resources
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.csproj.GenerateResource.Cache
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.exe
+C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.pdb
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.WPF.exe.config
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.csproj.ResolveComReference.cache
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.exe
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.pdb
