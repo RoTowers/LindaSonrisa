@@ -102,3 +102,7 @@ C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF
 C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.csproj.ResolveComReference.cache
 C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.exe
 C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.pdb
+C:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\bin\Debug\LindaSonrisa.WPF.exe.config
+C:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.csproj.ResolveComReference.cache
+C:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.exe
+C:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\LindaSonrisa.WPF.pdb
