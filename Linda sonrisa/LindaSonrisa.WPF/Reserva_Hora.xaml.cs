@@ -34,12 +34,10 @@ namespace LindaSonrisa.WPF
             this.Close();
             //hola y que pasa
             //prueba de rama
-<<<<<<< HEAD
-           // holaaaaaaaaaaaaaaaaa
-=======
 
+            //asdadasdasdasdsa
             //algo
->>>>>>> master
+
         }
     }
 }
