@@ -18,6 +18,7 @@ using System.ComponentModel;
 
 namespace LindaSonrisa.WPF
 {
+    //holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     /// <summary>
     /// Lógica de interacción para RegistroServicio.xaml
     /// </summary>
