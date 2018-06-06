@@ -43,11 +43,6 @@ namespace LindaSonrisa.WPF
 
            // holaaaaaaaaaaaaaaaaa
            //pockle2
-
-<<<<<<< HEAD
-=======
-
->>>>>>> master
             //algo
 
         }
