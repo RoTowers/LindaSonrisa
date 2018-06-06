@@ -50,6 +50,7 @@
     <Compile Include="Cargos.cs" />
     <Compile Include="CargosCollection.cs" />
     <Compile Include="ClientesCollection.cs" />
+    <Compile Include="Horario.cs" />
     <Compile Include="Odontologo.cs" />
     <Compile Include="ProveedorProvincia.cs" />
     <Compile Include="Provincia.cs" />
