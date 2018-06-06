@@ -18,3 +18,14 @@ C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda son
 C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Negocio\obj\Debug\LindaSonrisa.Negocio.csprojResolveAssemblyReference.cache
 C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Negocio\obj\Debug\LindaSonrisa.Negocio.dll
 C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Negocio\obj\Debug\LindaSonrisa.Negocio.pdb
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Negocio.dll.config
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Negocio.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Negocio.pdb
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\EntityFramework.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Dalc.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\LindaSonrisa.Dalc.pdb
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Negocio\bin\Debug\EntityFramework.xml
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Negocio\obj\Debug\LindaSonrisa.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Negocio\obj\Debug\LindaSonrisa.Negocio.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Negocio\obj\Debug\LindaSonrisa.Negocio.pdb
