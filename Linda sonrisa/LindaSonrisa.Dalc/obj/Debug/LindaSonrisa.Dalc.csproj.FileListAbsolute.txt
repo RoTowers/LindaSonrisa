@@ -14,3 +14,12 @@ C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda son
 C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Dalc\obj\Debug\LindaSonrisa.Dalc.csprojResolveAssemblyReference.cache
 C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Dalc\obj\Debug\LindaSonrisa.Dalc.dll
 C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Dalc\obj\Debug\LindaSonrisa.Dalc.pdb
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\LindaSonrisa.Dalc.dll.config
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\LindaSonrisa.Dalc.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\LindaSonrisa.Dalc.pdb
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\EntityFramework.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Dalc\bin\Debug\EntityFramework.xml
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Dalc\obj\Debug\LindaSonrisa.Dalc.csprojResolveAssemblyReference.cache
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Dalc\obj\Debug\LindaSonrisa.Dalc.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Dalc\obj\Debug\LindaSonrisa.Dalc.pdb
