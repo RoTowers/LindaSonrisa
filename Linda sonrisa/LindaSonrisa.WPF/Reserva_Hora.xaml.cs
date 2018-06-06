@@ -35,12 +35,12 @@ namespace LindaSonrisa.WPF
             //hola y que pasa
             //prueba de rama
 
-<<<<<<< HEAD
+
             //asdadasdasdasdsa
-=======
+
            // holaaaaaaaaaaaaaaaaa
            //pockle2
->>>>>>> master
+
             //algo
 
         }
