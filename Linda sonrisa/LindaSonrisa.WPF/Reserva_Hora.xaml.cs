@@ -36,8 +36,6 @@ namespace LindaSonrisa.WPF
             //prueba de rama
 
             //algo
-
-            //algo 2
         }
     }
 }
