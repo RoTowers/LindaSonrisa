@@ -54,6 +54,7 @@ namespace LindaSonrisa.Negocio
         #region Metodos
         private void init()
         {
+            //asdsdasdas
             Nombre = string.Empty;
             ApellidoPaterno = string.Empty;
             ApellidoMaterno = string.Empty;
