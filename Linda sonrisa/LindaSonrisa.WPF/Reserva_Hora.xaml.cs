@@ -43,7 +43,10 @@ namespace LindaSonrisa.WPF
 
            // holaaaaaaaaaaaaaaaaa
            //pockle2
+<<<<<<< HEAD
 
+=======
+>>>>>>> a941cb1c542a89123f43bd09c0779f5c6d613a3e
             //algo
 
         }

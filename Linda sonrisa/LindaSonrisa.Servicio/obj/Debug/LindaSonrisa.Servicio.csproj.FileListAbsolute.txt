@@ -48,6 +48,7 @@ C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda son
 C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.csprojResolveAssemblyReference.cache
 C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.dll
 C:\Temp\Portafolio de Titulo\Planificacion\Documentos Iteración 1\Net\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.pdb
+<<<<<<< HEAD
 C:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\ApplicationInsights.config
 C:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Servicio.dll.config
 C:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Servicio.dll
@@ -73,3 +74,31 @@ C:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bi
 C:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.csprojResolveAssemblyReference.cache
 C:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.dll
 C:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.pdb
+=======
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\ApplicationInsights.config
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Servicio.dll.config
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Servicio.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Servicio.pdb
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Negocio.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.Web.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.ApplicationInsights.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\Oracle.ManagedDataAccess.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Dalc.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\EntityFramework.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Negocio.pdb
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.Web.xml
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\Microsoft.ApplicationInsights.xml
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\LindaSonrisa.Dalc.pdb
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\bin\EntityFramework.xml
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.csprojResolveAssemblyReference.cache
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.dll
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.Servicio\obj\Debug\LindaSonrisa.Servicio.pdb
+>>>>>>> a941cb1c542a89123f43bd09c0779f5c6d613a3e

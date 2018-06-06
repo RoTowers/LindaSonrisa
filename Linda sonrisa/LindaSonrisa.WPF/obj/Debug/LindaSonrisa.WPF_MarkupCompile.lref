@@ -1,4 +1,5 @@
 ﻿
+<<<<<<< HEAD
 FC:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\App.xaml;;
 FC:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Cambio_Contrasena.xaml;;
 FC:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Boleta_Servicio.xaml;;
@@ -17,4 +18,24 @@ FC:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Regist
 FC:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Registro_Producto.xaml;;
 FC:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Registro_Proveedores.xaml;;
 FC:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Reserva_Hora.xaml;;
+=======
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\App.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Cambio_Contrasena.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Boleta_Servicio.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Estadisticas.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Inicio.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\ListarClientes.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\ListarServicios.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Listar_Empleados.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Listar_Productos.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Listar_Proveedores.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\MainWindow.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Orden_Pedido.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\RegistroServicio.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Registro_Cliente.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Registro_Empleado.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Registro_Producto.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Registro_Proveedores.xaml;;
+FC:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\Reserva_Hora.xaml;;
+>>>>>>> a941cb1c542a89123f43bd09c0779f5c6d613a3e
 

@@ -4,16 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\
+=======
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\obj\Debug\
+>>>>>>> a941cb1c542a89123f43bd09c0779f5c6d613a3e
 LindaSonrisa.WPF
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\pockle\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\App.xaml
 17-371805514
 
 22310332259
 24518331762
+=======
+C:\Users\RodrigoAndrés\Source\Repos\LindaSonrisa\Linda sonrisa\LindaSonrisa.WPF\App.xaml
+17-371805514
+
+22310332259
+271224228476
+>>>>>>> a941cb1c542a89123f43bd09c0779f5c6d613a3e
 Cambio_Contrasena.xaml;Boleta_Servicio.xaml;Estadisticas.xaml;Inicio.xaml;ListarClientes.xaml;ListarServicios.xaml;Listar_Empleados.xaml;Listar_Productos.xaml;Listar_Proveedores.xaml;MainWindow.xaml;Orden_Pedido.xaml;RegistroServicio.xaml;Registro_Cliente.xaml;Registro_Empleado.xaml;Registro_Producto.xaml;Registro_Proveedores.xaml;Reserva_Hora.xaml;
 
 True
