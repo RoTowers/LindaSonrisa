@@ -34,9 +34,6 @@ namespace LindaSonrisa.WPF
             this.Close();
             //hola y que pasa
             //prueba de rama
-
-            //wena franco jajaja
-
         }
     }
 }
