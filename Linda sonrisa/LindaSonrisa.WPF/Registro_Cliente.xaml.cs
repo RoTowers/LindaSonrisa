@@ -28,6 +28,7 @@ namespace LindaSonrisa.WPF
         public string rutPasaporte { get; set; }
         public Registro_Cliente()
         {
+            //asdfg
             InitializeComponent();
             Init();
             CargarDatos();
